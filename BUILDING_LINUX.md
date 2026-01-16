@@ -95,7 +95,7 @@ npm run make
 
 #### From Build Directory
 ```bash
-./out/goose-linux-x64/goose
+./out/goose-linux-x64/Goose
 ```
 
 #### Install DEB Package (if built)
@@ -157,8 +157,8 @@ Create `~/.local/share/applications/goose.desktop`:
 [Desktop Entry]
 Name=goose AI Agent
 Comment=Local AI agent for development tasks
-Exec=/path/to/goose/ui/desktop/out/goose-linux-x64/goose %U
-Icon=/path/to/goose/ui/desktop/out/goose-linux-x64/resources/app.asar.unpacked/src/images/icon.png
+Exec=/path/to/goose/ui/desktop/out/goose-linux-x64/Goose %U
+Icon=/path/to/goose/ui/desktop/out/goose-linux-x64/resources/images/icon.png
 Terminal=false
 Type=Application
 Categories=Development;Utility;
