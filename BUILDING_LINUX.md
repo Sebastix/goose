@@ -76,7 +76,7 @@ Works on all Linux distributions:
 npm run make -- --targets=@electron-forge/maker-zip
 ```
 
-Output: `out/make/zip/linux/x64/goose-linux-x64-{version}.zip`
+Output: `out/make/zip/linux/x64/Goose-linux-x64-{version}.zip`
 
 #### Option B: DEB Package
 For Debian/Ubuntu systems:
@@ -84,7 +84,7 @@ For Debian/Ubuntu systems:
 npm run make -- --targets=@electron-forge/maker-deb
 ```
 
-Output: `out/make/deb/x64/goose_{version}_amd64.deb`
+Output: `out/make/deb/x64/Goose_{version}_amd64.deb`
 
 #### Option C: Both Formats
 ```bash
@@ -95,12 +95,12 @@ npm run make
 
 #### From Build Directory
 ```bash
-./out/goose-linux-x64/Goose
+./out/Goose-linux-x64/Goose
 ```
 
 #### Install DEB Package (if built)
 ```bash
-sudo dpkg -i out/make/deb/x64/goose_*.deb
+sudo dpkg -i out/make/deb/x64/Goose_*.deb
 ```
 
 ## Troubleshooting
@@ -172,8 +172,8 @@ Create `~/.local/share/applications/goose.desktop`:
 [Desktop Entry]
 Name=goose AI Agent
 Comment=Local AI agent for development tasks
-Exec=/path/to/goose/ui/desktop/out/goose-linux-x64/Goose %U
-Icon=/path/to/goose/ui/desktop/out/goose-linux-x64/resources/images/icon.png
+Exec=/path/to/goose/ui/desktop/out/Goose-linux-x64/Goose %U
+Icon=/path/to/goose/ui/desktop/out/Goose-linux-x64/resources/images/icon.png
 Terminal=false
 Type=Application
 Categories=Development;Utility;
