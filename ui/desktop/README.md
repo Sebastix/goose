@@ -81,10 +81,10 @@ npm run make -- --targets=@electron-forge/maker-flatpak
 ```
 
 The built application will be available in:
-- ZIP: `out/make/zip/linux/x64/goose-linux-x64-{version}.zip`
-- DEB: `out/make/deb/x64/goose_{version}_amd64.deb`
+- ZIP: `out/make/zip/linux/x64/Goose-linux-x64-{version}.zip`
+- DEB: `out/make/deb/x64/Goose_{version}_amd64.deb`
 - Flatpak: `out/make/flatpak/x86_64/*.flatpak`
-- Executable: `out/goose-linux-x64/goose`
+- Executable: `out/Goose-linux-x64/Goose`
 
 ### Windows
 Use the existing Windows build process as documented.
